@@ -33,8 +33,8 @@ anime.timeline({loop: false})
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i
+    duration: 1150,
+    delay: (el, i) => 120*i
   }),
 
   anime.timeline({loop: false})
@@ -44,7 +44,7 @@ anime.timeline({loop: false})
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 950,
+    duration: 1150,
     delay: (el, i) => 70*i, 
   }) 
   anime.timeline({loop: false})
@@ -54,8 +54,8 @@ anime.timeline({loop: false})
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i, 
+    duration: 1150,
+    delay: (el, i) => 120*i, 
   }) 
   
   // Другая не доработанная 
