@@ -78,10 +78,10 @@ h1, h2, h3, h4 {
 	background-size: cover;
 }
 .frame-media_left {
-	right: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
+	right: calc(var(--side-small) / 1.9 * var(--index) + var(--gutter));
 }
 .frame-media_right {
-	left: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
+	left: calc(var(--side-small) / 1.9 * var(--index) + var(--gutter));
 }
 .frame_bg {
 	background-color: rgb(0 0 0 / .87);
@@ -98,11 +98,11 @@ video.frame-media_left {
 }
 .text-right > * {
 	position: relative;
-	left: 18vw;
+	left: 20vw;
 }
 .text-left > * {
 	position: relative;
-	right: 18vw;
+	right: 20vw;
 }
 .frame h3 {
 	font-size: calc(var(--index) * 3);
@@ -116,9 +116,9 @@ video.frame-media_left {
 	bottom: 5vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 24px;
+	width: 34px;
 	transition: .25s ease;
 }
 .soundbutton.paused {
-	opacity: .25;
+	opacity: .6;
 }
